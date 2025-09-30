@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
         <meta charset="UTF-8">
         <title>Homepage</title>
+        <!--Each page has it's own "title" which helps the CSS stylesheet know what pages need to be formatted and for ease of use when looking through code-->
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <!--I'm using this specific link function to link my styles.css sheet to this as it worked for a previous website I coded back in LIS 351-->
         <link rel="stylesheet" href="styles.css">
     </head>
-
+    <!--The random spaces between the "Head", "Body" and "Main" sections is just for ease of use to see what each section is running-->
     <body>
+        <!--I was taught 2 ways to do the navigation bar however I found the most success with this method vs giving it the "class="navbar"" classification. This also errases the need for "<div> which personally I don't like to use too much when coding in HTML-->
         <nav style="text-align: center;">
             <p>
+                <!--The use of "class="m-2"" for the navigation tabs was taken from another class (LIS 472) where we learned how to use classes as a way to tell GitHub/HTML to make something a link-->
                 <a class="m-2" href="index.html">Welcome</a>
                 <a class="m-2" href="about.html">About Us</a>
                 <a class="m-2" href="library.html">Resource Library</a>
                 <a class="m-2" href="heros.html">Tech Heros</a>
             </p>
         </nav>
+        
         <main>
              <h1>Welcome!</h1>
              <p>This is our homepage</p>
         </main>
+        
     </body>
+    
 </html>

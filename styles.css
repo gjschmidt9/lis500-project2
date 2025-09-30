@@ -1,16 +1,17 @@
 html {
-    background-color: #279FF5;
+    background-color: #34aeeb;
 }
 
-header h1 {
-    font-family: "Times New Roman", Georgia, serif;
-    
 body {
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
 }
-    
+
+header h1 {
+    font-family: "Times New Roman", Georgia, serif;
+}
+
 main {
     padding: 20px;
     background-color: #ffffff;
@@ -19,6 +20,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 body.past-page main {
     display: flex;
     flex-direction: column;
@@ -33,23 +35,23 @@ body.past-page main img {
 }
 
 nav p {
-  text-align: center;
+    text-align: center;
 }
 
 .m-2 {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: white;
-  color: #004080;
-  text-decoration: none;
-  border-radius: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-weight: bold;
-  transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #004080;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .m-2:hover {
-  background-color: #e0f0ff;
-  transform: scale(1.05);
+    background-color: #e0f0ff;
+    transform: scale(1.05);
 }

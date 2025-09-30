@@ -1,5 +1,5 @@
 html {
-    background-color: #34aeeb;
+    background-color: #279FF5;
 }
 
 header h1 {
@@ -29,4 +29,26 @@ body.past-page main img {
     max-width: 600px;
     border-radius: 10px;
     margin-bottom: 15px;
+}
+
+nav p {
+  text-align: center;
+}
+
+.m-2 {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #004080;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.m-2:hover {
+  background-color: #e0f0ff;
+  transform: scale(1.05);
 }

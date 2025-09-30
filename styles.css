@@ -6,7 +6,7 @@ header h1 {
     font-family: "Times New Roman", Georgia, serif;
     
 body {
-    background-color: transparent;
+    background-color: #34aeeb;
     margin: 0;
     padding: 0;
 }
@@ -19,6 +19,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 body.past-page main {
     display: flex;
     flex-direction: column;

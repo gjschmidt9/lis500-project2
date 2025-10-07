@@ -81,8 +81,8 @@ nav p {
     max-width: 700px;
 }
 
-.section {
-  border: 2px solid #f4f4f9;
+.library-page .section {
+  border: 2px solid #007BFF;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 30px;
